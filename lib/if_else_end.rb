@@ -1,11 +1,7 @@
 # Write your solution here
-chance_of_rain = -23
-if chance_of_rain <= 0.25
-  puts "Pack a sun shelter!"
-elsif (chance_of_rain > 0.25 && chance_of_rain < 0.75)
-  puts "Pack an Umbrella!"
-else 
-  puts "Stay home."
-end
+puts "Do you know what year it is?"
+this_year = 2020
+puts "It's 2020!" if this_year == 2020
+
 
 
